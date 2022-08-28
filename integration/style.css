@@ -1,0 +1,120 @@
+@media (max-width: 767px) {
+    html {
+        overflow-x: hidden;
+    }
+    .phone {
+        visibility: visible;
+        width: auto;
+    }
+    footer{
+        visibility: hidden;
+    }
+    .presentation {
+        background-color: #c0c0c0
+    }
+    .presentation_title {
+        color: white;
+        margin-left: 0.5em;
+        padding-top: 0.5em;
+    }
+    .presentation_content {
+        
+        font-weight: bold;
+        margin-left: 0.8em;
+        margin-right: 0.3em;
+        padding-bottom: 0.5em;
+    }
+    .card {
+        width: 22.5rem;
+    }
+}
+@media (min-width:768px) and (max-width:934px) {
+    html {
+        overflow-x: hidden;
+    }
+    .phone {
+        visibility: visible;
+        width: auto;
+    }
+    footer{
+        visibility: hidden;
+    }
+}
+@media (min-width: 935px) {
+    .phone {
+        visibility: hidden;
+    }
+    .presentation {
+        /*background-color: #c0c0c0;*/
+        margin-bottom: 5em;
+    }
+    .presentation_title {
+        color: white;
+        margin-left: 0.5em;
+        padding-top: 0.5em;
+    }
+    .presentation_content {
+        color: white;
+        font-weight: bold;
+        margin-left: 0.8em;
+        margin-right: 0.3em;
+        padding-bottom: 0.5em;
+    }
+    .container-fluid {
+        display:flex;
+        flex-direction: row;  
+    }
+    .card {
+        margin-right: 1em;
+        margin-left: 1.5em;
+        width: 24.3em;
+        
+    }
+    main {
+        background-image: url(/integration/images/background\ amethyste.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 49.8em;;
+    }
+    footer {
+        background-color: #E6E6FA;
+        /*position: fixed;*/
+        top: 856.5px;
+        width: 100%;
+        height: 7em;
+      }
+    .footer_left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10em;
+        margin-top: 0.3em;
+        width: 50em;
+      }
+    .footer_left-information {
+        display: flex;
+        align-items: flex-start;
+      }
+      .svg {
+        width: 30px;
+        margin-right: 1em;
+        margin-bottom: 0.5em;
+      }
+      .footer_right {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+      }
+      .information {
+        display: flex;
+        justify-content: center;
+      }
+   
+
+}
+
+/*body {
+    background-image: url(/integration/images/background-pierre-minerale.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}*/
+
